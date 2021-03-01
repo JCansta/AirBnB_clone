@@ -1,0 +1,14 @@
+header{
+    color: white;
+    height: 70px;
+    width: 100%;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+#header_logo {
+    width: inherit;
+    height: inherit;
+    background-image: url("../images/logo.png");
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
