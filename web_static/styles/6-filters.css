@@ -53,17 +53,24 @@ h4{
 }
 
 .popover{
+    transform: translate(-30px, -11px);
     
     visibility: hidden;
     background-color: #FAFAFA;
     border: 1px solid #DDDDDD;
     border-radius: 4px;
+    margin: 0;
+    width: 108%;
 }
 .popoverL{
     padding-left: 10%;
 }
 li{
     list-style-type: none;
+    padding: 1px;
+}
+ul {
+    padding-inline-start: 20px;
 }
 .locations:hover >.popover,
 .amenites:hover >.popover{
